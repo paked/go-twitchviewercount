@@ -9,8 +9,8 @@ import (
 	"time"
 )
 
-var stream = flag.String("stream", "tehhcwool", "Your (or someone elses) streamname")
-var clientID = flag.String("clientID", "9po4ts2jz2niigqq3o9gtt2ntw69njf", "Your client ID (set in settings/connections)")
+var stream = flag.String("stream", "paked", "Your (or someone elses) streamname")
+var clientID = flag.String("clientID", "---", "Your client ID (set in settings/connections)")
 
 type Repsonse struct {
 	Stream StreamInfo `json: stream`
